@@ -16,6 +16,7 @@ BOARD_VENDOR := htc
 
 TARGET_SPECIFIC_HEADER_PATH := device/htc/msm8660-common/include
 
+DEVICE_PACKAGE_OVERLAYS += device/htc/msm8660-common/overlay
 # Bootloader
 TARGET_NO_BOOTLOADER := true
 
